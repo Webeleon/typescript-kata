@@ -1,26 +1,24 @@
 {
-  "name": "@webeleon/npm-package-starter-typescript",
-  "version": "0.0.8",
-  "description": "starter npm package using typescript",
-  "main": "lib/main.js",
-  "types": "lib/main.d.ts",
+  "name": "typescript-kata",
+  "version": "0.0.0",
+  "description": "kata to train with typescript",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "patch": "npm run build && npm version patch && npm publish",
     "format": "prettier --write '**/*.ts'",
     "build": "tsc",
     "generate-doc": "typedoc",
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version",
+    "serve-report": "live-server --port=8080 --entry-file=./public/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Webeleon/typecript-npm-package-starter"
+    "url": "git+https://github.com/Webeleon/typecript-kata"
   },
   "bugs": {
-    "url": "https://github.com/Webeleon/typecript-npm-package-starter/issues"
+    "url": "https://github.com/Webeleon/typecript-kata/issues"
   },
   "contributors": [
     {
@@ -53,6 +51,8 @@
     "typescript": "4.8.4"
   },
   "dependencies": {
+    "jest-html-reporter": "^3.7.0",
+    "live-server": "^1.2.2",
     "node-fetch": "3.3.0",
     "query-string": "7.1.1"
   },

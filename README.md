@@ -1,7 +1,15 @@
-# Webeleon npm package starter
+# Type script kata
 
-## Install
+This repo aims to help you train your typescript skills!
 
+You need to solve all the challenges and make all the test pass.
+
+## Live report display
+
+```bash
+npm run test:watch
 ```
-npm i package-name
+
+```bash
+npm run serve-report
 ```
