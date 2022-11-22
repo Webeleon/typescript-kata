@@ -41,7 +41,7 @@ describe("Vehicle reducer", () => {
           createdAt: new Date(),
           action: VechicleAction.CREATE,
           data: {
-            registrationNumber: "zz99zz",
+            registrationNumber: "zz999zz",
           },
         },
       ];
@@ -105,7 +105,7 @@ describe("Vehicle reducer", () => {
           createdAt: new Date(),
           action: VechicleAction.CREATE,
           data: {
-            registrationNumber: "zz99zz",
+            registrationNumber: "zz999zz",
           },
         },
         {
@@ -174,7 +174,7 @@ describe("Vehicle reducer", () => {
           createdAt: new Date(),
           action: VechicleAction.CREATE,
           data: {
-            registrationNumber: "zz99zz",
+            registrationNumber: "zz999zz",
           },
         },
         {
