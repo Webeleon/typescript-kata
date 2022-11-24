@@ -228,7 +228,6 @@ describe("Vehicle reducer", () => {
   });
 
   describe("reducer", () => {
-    
     afterEach(() => {
       jest.restoreAllMocks();
     });
