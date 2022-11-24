@@ -4,7 +4,7 @@ export interface Vehicle {
   priceInCents?: number;
 }
 
-export enum VechicleAction {
+export enum VehicleAction {
   CREATE,
   UPDATE,
   DELETE,
