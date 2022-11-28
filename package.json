@@ -27,10 +27,11 @@
     }
   ],
   "keywords": [
-    "project starter",
+    "kata",
     "webeleon",
-    "npm",
-    "typescript"
+    "typescript",
+    "koans",
+    "learning"
   ],
   "author": "Julien Prugne<juliene@webeleon.dev>",
   "license": "MIT",
